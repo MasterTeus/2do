@@ -1,0 +1,18 @@
+.backgroundHeader {
+  background-color: var(--Gray-700);
+  width: 100%;
+  height: 200px;
+
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 53px;
+}
+.backgroundHeader > input {
+    background-color: var(--Gray-500);
+    border: none;
+    width: 600px;
+    height: 504px;
+    border-radius: 8px;
+}
