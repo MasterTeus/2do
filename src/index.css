@@ -3,9 +3,9 @@
   line-height: 140%;
   font-weight: 400;
 
-  --Blue-dark: #1e6f9f;
+  --Blue-Dark: #1e6f9f;
   --Blue: #4ea8de;
-  --Purple-dark: #5e60ce;
+  --Purple-Dark: #5e60ce;
   --Purple: #8284fa;
   --Gray-700: #0d0d0d;
   --Gray-600: #1a1a1a;
@@ -27,4 +27,11 @@ body {
   background: var(--Gray-600);
   color: var(--Gray-300);
   --webkit-font-smoothing: antialiased;
+}
+
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding-bottom: 24px;
 }

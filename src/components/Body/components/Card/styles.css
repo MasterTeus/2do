@@ -1,0 +1,59 @@
+.card {
+  border-radius: 8px;
+  border: 1px solid var(--Gray-400);
+  background: var(--Gray-500);
+  padding: 12px;
+  justify-content: space-between;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--Gray-100);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.actions {
+  gap: 4px;
+  flex-direction: row;
+  display: flex;
+}
+
+.actions > button {
+  width: max-content;
+  height: 24px;
+  padding: 6px;
+  gap: 4px;
+  color: var(--Gray-100);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: var(--Gray-400);
+  border: none;
+  border-radius: 4px;
+}
+
+.actions > button:hover {
+  background: var(--Gray-600);
+}
+
+.actions > button > p {
+  display: none;
+}
+.actions > button:hover > p {
+  display: block;
+}
+
+.btnCheck {
+  cursor: auto !important;
+}
+
+.btnCheck:hover {
+  background-color: var(--Gray-400) !important;
+}

@@ -1,0 +1,14 @@
+.bodyWrapper {
+  margin-top: 82px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.columnManage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 700px;
+}
